@@ -9,6 +9,7 @@
     <meta name="author" content="Estudiante">
     <title>Zona Gamer - Guía básica de videojuegos</title>
     <link rel="icon" href="./SRC/icon-index.png" type="image/png">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
@@ -61,7 +62,7 @@
                 </ul>
             </article>
 
-            <article> 
+            <article>
                 <h3>♟️ Estrategia</h3>
                 <p>
                     Aquí gana quien planea mejor: administrar recursos, posicionarse y tomar decisiones
@@ -146,7 +147,7 @@
             <a href="https://www.xbox.com/" target="_blank" rel="noopener">
                 <button type="button">Abrir Xbox</button>
             </a>
-
+            <br><br>
             <p>
                 Para consejos y configuraciones, revisa la guía:
                 <a href="./guia.html">
@@ -180,22 +181,6 @@
                 <figcaption> pixel art escena videojuego.
                 </figcaption>
             </figure>
-
-
-            <p>
-                <a href="#generos">
-                    <img src="./SRC/icono-generos.png" alt="Icono de géneros" width="40"> <br>
-                    Ir a Géneros
-                </a>
-            </p>
-
-            <p>
-                <a href="#contacto">
-                    <img src="./SRC/icono-contacto.png" alt="Icono de contacto" width="40"> <br>
-                    Ir a Contacto
-                </a>
-            </p>
-
         </section>
 
         <section id="comunidad">
@@ -223,11 +208,11 @@
         <section id="contacto">
             <h2>📞 Contacto</h2>
             <p>
-                Si quieres recomendar un videojuego o sugerir una sección nueva, envía tus datos en este formulario.
-                (No requiere JavaScript; es solo estructura HTML.)
+                Si quieres recomendar un videojuego o sugerir una sección nueva, llena este formulario.
+                Al enviar, solo se mostrará un mensaje de confirmación.
             </p>
 
-            <form action="#" method="post">
+            <form onsubmit="return false;">
                 <fieldset>
                     <legend>Formulario de recomendaciones</legend>
 
@@ -252,21 +237,16 @@
                         </select>
                     </p>
 
-                    <p>
-                        <span>Género preferido:</span><br>
-                        <input type="radio" id="gen-accion" name="genero" value="accion">
-                        <label for="gen-accion">Acción</label><br>
+                    <p>Género preferido:</p>
 
-                        <input type="radio" id="gen-rpg" name="genero" value="rpg">
-                        <label for="gen-rpg">RPG</label><br>
-
-                        <input type="radio" id="gen-estrategia" name="genero" value="estrategia">
-                        <label for="gen-estrategia">Estrategia</label><br>
-
-                        <input type="radio" id="gen-deportes" name="genero" value="deportes">
-                        <label for="gen-deportes">Deportes/Carreras</label>
+                    <p class="radio-list">
+                        <label><input type="radio" name="genero" value="accion"> Acción</label><br>
+                        <label><input type="radio" name="genero" value="rpg"> RPG</label><br>
+                        <label><input type="radio" name="genero" value="estrategia"> Estrategia</label><br>
+                        <label><input type="radio" name="genero" value="deportes"> Deportes/Carreras</label>
                     </p>
 
+                    <br>
                     <p>
                         <label for="mensaje">Tu recomendación:</label><br>
                         <textarea id="mensaje" name="mensaje" rows="5" cols="40"
@@ -279,20 +259,27 @@
                     </p>
 
                     <p>
-                        <button type="submit">Enviar</button>
-                        <button type="reset">Borrar</button>
+                        <button type="button" onclick="alert('✅ Información enviada correctamente');">
+                            Enviar
+                        </button>
+
+                        <button type="reset">
+                            Borrar
+                        </button>
                     </p>
                 </fieldset>
             </form>
 
-            <a href="eborbollonp@toluca.tecnm.mx">
-                <button type="button">Enviar correo</button>
-            </a>
+            <p>
+                <button type="button" onclick="alert('📧 Puedes escribir a: eborbollonp@toluca.tecnm.mx');">
+                    Mostrar correo de contacto
+                </button>
+            </p>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 Zona Gamer. Página de práctica en HTML sin CSS ni JavaScript.</p>
+        <p>&copy; 2026 Zona Gamer. Página de práctica en HTML. Edwin Borbollón Peralta</p>
         <a href="#top">
             <button type="button">Volver arriba</button>
         </a>

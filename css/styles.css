@@ -1,0 +1,202 @@
+/* ====== Reset básico ====== */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #0f1220;          
+    color: #e6e6e6;  
+    line-height: 1.6;
+}
+
+/* ====== Contenedores principales ====== */
+header, main, footer {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* ====== Header ====== */
+header {
+    background-color: #161a2b;
+    border-bottom: 3px solid #00ffd5;
+    text-align: center;
+}
+
+header h1 {
+    color: #00ffd5;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #bfc3ff;
+}
+
+/* ====== Nav ====== */
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav button {
+    background-color: #232857;
+    color: #ffffff;
+    border: 1px solid #00ffd5;
+    padding: 8px 14px;
+    margin: 4px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background-color: #00ffd5;
+    color: #0f1220;
+}
+
+/* ====== Section ====== */
+section {
+    background-color: #161a2b;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+section h2 {
+    color: #00ffd5;
+    margin-bottom: 10px;
+}
+
+section h3 {
+    color: #7aa2ff;
+    margin-top: 15px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+ul, ol {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+
+article {
+    background-color: #1c2040;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #1c2040;
+}
+
+caption {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #00ffd5;
+}
+
+th, td {
+    border: 1px solid #00ffd5;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #232857;
+    color: #00ffd5;
+}
+
+
+
+/* ====== Galería ====== */
+figure {
+    margin: 15px 0;
+    text-align: center;
+}
+
+figure img {
+    max-width: 100%;
+    border-radius: 8px;
+    border: 2px solid #00ffd5;
+}
+
+figcaption {
+    margin-top: 5px;
+    color: #bfc3ff;
+    font-size: 0.9em;
+}
+
+/* ====== Buttons====== */
+button {
+    background-color: #232857;
+    color: #ffffff;
+    border: 1px solid #00ffd5;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00ffd5;
+    color: #0f1220;
+}
+
+/* ====== Forms ====== */
+form input, form select, form textarea {
+    width: 100%;
+    padding: 6px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #00ffd5;
+    background-color: #0f1220;
+    color: #ffffff;
+}
+
+form fieldset {
+    border: 1px solid #00ffd5;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+form legend {
+    color: #00ffd5;
+    padding: 0 8px;
+}
+
+
+aside {
+    background-color: #232857;
+    padding: 10px;
+    border-left: 4px solid #00ffd5;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    border-top: 2px solid #00ffd5;
+    color: #bfc3ff;
+}
+
+footer button {
+    margin-top: 10px;
+}
+.radio-list input {
+    width: auto;
+    margin-right: 8px;
+}
