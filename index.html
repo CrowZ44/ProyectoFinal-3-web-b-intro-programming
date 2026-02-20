@@ -8,36 +8,35 @@
         content="Página web en HTML sobre videojuegos: géneros, recomendaciones, comunidad y contacto.">
     <meta name="author" content="Estudiante">
     <title>Zona Gamer - Guía básica de videojuegos</title>
-    <link rel="stylesheet" href="./SRC/icon-index.png">
+    <link rel="icon" href="./SRC/icon-index.png" type="image/png">
 </head>
 
 <body>
+    <a id="top"></a>
     <header>
-        <h1>Zona Gamer</h1>
+        <h1>🎮 Zona Gamer 🎮</h1>
         <p>Un sitio sencillo para explorar géneros, recomendaciones y recursos sobre videojuegos.</p>
 
         <nav aria-label="Navegación principal">
-            <p>
-                <a href="#generos">Géneros</a> |
-                <a href="#recomendados">Recomendados</a> |
-                <a href="#noticias">Noticias</a> |
-                <a href="#galeria">Galería</a> |
-                <a href="#comunidad">Comunidad</a> |
-                <a href="#contacto">Contacto</a>
-            </p>
+            <a href="#generos"><button type="button">Géneros</button></a>
+            <a href="#recomendados"><button type="button">Recomendados</button></a>
+            <a href="#noticias"><button type="button">Noticias</button></a>
+            <a href="#galeria"><button type="button">Galería</button></a>
+            <a href="#comunidad"><button type="button">Comunidad</button></a>
+            <a href="#contacto"><button type="button">Contacto</button></a>
         </nav>
     </header>
 
     <main>
         <section id="generos">
-            <h2>Géneros populares</h2>
+            <h2>🌐 Géneros populares</h2>
             <p>
                 Los videojuegos se agrupan por estilos de juego. Conocer los géneros ayuda a elegir
                 qué jugar según tu gusto: acción, estrategia, historia, deportes y más.
             </p>
 
             <article>
-                <h3>Acción y Aventura</h3>
+                <h3>🪖 Acción y Aventura</h3>
                 <p>
                     Juegos centrados en exploración, misiones y combates. Suelen incluir mundos amplios,
                     historia y habilidades que se van mejorando con el progreso.
@@ -50,7 +49,7 @@
             </article>
 
             <article>
-                <h3>RPG (Rol)</h3>
+                <h3>🪪 RPG (Rol)</h3>
                 <p>
                     Te permiten construir un personaje, tomar decisiones y avanzar en niveles.
                     Normalmente incluyen inventario, estadísticas y narrativa.
@@ -62,8 +61,8 @@
                 </ul>
             </article>
 
-            <article>
-                <h3>Estrategia</h3>
+            <article> 
+                <h3>♟️ Estrategia</h3>
                 <p>
                     Aquí gana quien planea mejor: administrar recursos, posicionarse y tomar decisiones
                     en el momento correcto. Pueden ser por turnos o en tiempo real.
@@ -76,7 +75,7 @@
             </article>
 
             <article>
-                <h3>Deportes y Carreras</h3>
+                <h3>🏁 Deportes y Carreras</h3>
                 <p>
                     Ideales para partidas rápidas, competitivas o cooperativas. Incluyen ligas, temporadas
                     o desafíos contra reloj.
@@ -85,41 +84,41 @@
         </section>
 
         <section id="recomendados">
-            <h2>Recomendaciones rápidas</h2>
+            <h2>📝 Recomendaciones rápidas</h2>
 
             <table border="1">
-                <caption>Ideas de juego según tu tiempo</caption>
+                <caption>Recomendaciones de juegos según tu tiempo disponible</caption>
                 <thead>
                     <tr>
-                        <th>Titulo</th>
-                        <th>Tiempo disponible</th>
-                        <th>Tipo de juego</th>
-                        <th>Qué buscar</th>
+                        <th scope="col">Título</th>
+                        <th scope="col">Tiempo disponible</th>
+                        <th scope="col">Género</th>
+                        <th scope="col">Qué ofrece</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Marvel Rivals</td>
-                        <td>10-20 min</td>
+                        <th scope="row">Marvel Rivals</th>
+                        <td>10–20 min</td>
                         <td>Hero Shooter</td>
-                        <td>Rondas rápidas, variedad de personajes, reinicio inmediato</td>
+                        <td>Partidas rápidas, variedad de personajes, acción inmediata</td>
                     </tr>
                     <tr>
-                        <td>Valorant</td>
-                        <td>30-60 min</td>
+                        <th scope="row">Valorant</th>
+                        <td>30–60 min</td>
                         <td>Tactical Shooter</td>
-                        <td>Rondas rapidas, Partidas largas, Analisis de Tacticas</td>
+                        <td>Partidas tácticas, rondas largas, trabajo en equipo</td>
                     </tr>
                     <tr>
-                        <td>Halo 1-5</td>
+                        <th scope="row">Halo (1–5)</th>
                         <td>Más de 1 hora</td>
-                        <td>Primera persona, Shooter</td>
-                        <td>Exploración, progreso, misiones secundarias</td>
+                        <td>FPS</td>
+                        <td>Historia, progreso, misiones y campañas completas</td>
                     </tr>
                 </tbody>
             </table>
 
-            <h3>Consejo</h3>
+            <h3>✍️Consejo</h3>
             <p>
                 Si te mareas con la cámara o te cansa la vista, busca opciones de accesibilidad como
                 subtítulos grandes, sensibilidad ajustable y modo daltonismo (cuando esté disponible).
@@ -127,82 +126,80 @@
         </section>
 
         <section id="noticias">
-            <h2>Recursos y noticias</h2>
+            <h2>📰 Recursos y noticias</h2>
             <p>
-                Estos enlaces dirigen a recursos externos para aprender, ver reseñas o seguir lanzamientos.
-                (Son ejemplos; puedes cambiarlos por los que uses.)
+                Sitios oficiales y tiendas para explorar juegos, reseñas y lanzamientos:
             </p>
 
-            <ul>
-                <li><a href="https://store.steampowered.com/" target="_blank" rel="noopener">Tienda y catálogo
-                        (Steam)</a></li>
-                <li><a href="https://www.nintendo.com/" target="_blank" rel="noopener">Sitio oficial (Nintendo)</a></li>
-                <li><a href="https://www.playstation.com/" target="_blank" rel="noopener">Sitio oficial
-                        (PlayStation)</a></li>
-                <li><a href="https://www.xbox.com/" target="_blank" rel="noopener">Sitio oficial (Xbox)</a></li>
-            </ul>
+            <a href="https://store.steampowered.com/" target="_blank" rel="noopener">
+                <button type="button">Abrir Steam</button>
+            </a>
+
+            <a href="https://www.nintendo.com/" target="_blank" rel="noopener">
+                <button type="button">Abrir Nintendo</button>
+            </a>
+
+            <a href="https://www.playstation.com/" target="_blank" rel="noopener">
+                <button type="button">Abrir PlayStation</button>
+            </a>
+
+            <a href="https://www.xbox.com/" target="_blank" rel="noopener">
+                <button type="button">Abrir Xbox</button>
+            </a>
 
             <p>
-                <!-- Aqui va Guia.html -->
+                Para consejos y configuraciones, revisa la guía:
+                <a href="./guia.html">
+                    <button type="button">Abrir guía local</button>
+                </a>
             </p>
         </section>
 
         <section id="galeria">
-            <h2>Galería</h2>
+            <h2>📷 Galería</h2>
             <p>
                 Inserta imágenes relacionadas a videojuegos. Aquí solo se indica qué imagen buscar y cómo
                 nombrar el archivo en tu carpeta del proyecto (por ejemplo: <strong>img/</strong>).
             </p>
 
             <figure>
-                <img src="img/control-consola.jpg" alt="Control de consola sobre una mesa" width="420">
+                <img src="./SRC/control-consola.jpg" alt="Control de consola sobre una mesa" width="420">
                 <figcaption>
-                    Imagen sugerida: busca “control de consola sobre una mesa” (foto).
-                    Guarda como <strong>control-consola.jpg</strong>.
+                    control de consola
                 </figcaption>
             </figure>
 
             <figure>
-                <img src="img/setup-gaming.jpg" alt="Setup gamer con monitor y teclado" width="420">
-                <figcaption>
-                    Imagen sugerida: busca “setup gamer con monitor y teclado” (foto).
-                    Guarda como <strong>setup-gaming.jpg</strong>.
+                <img src="./SRC/setup-gaming.jpg" alt="Setup gamer con monitor y teclado" width="420">
+                <figcaption> setup gamer con monitor y teclado
                 </figcaption>
             </figure>
 
             <figure>
-                <img src="img/pixel-art-escena.jpg" alt="Ilustración estilo pixel art" width="420">
-                <figcaption>
-                    Imagen sugerida: busca “pixel art escena videojuego” (ilustración).
-                    Guarda como <strong>pixel-art-escena.jpg</strong>.
+                <img src="./SRC/pixel-art-escena.jpg" alt="Ilustración estilo pixel art" width="420">
+                <figcaption> pixel art escena videojuego.
                 </figcaption>
             </figure>
 
-            <h3>Botones con imagen</h3>
-            <p>Estos botones son solo HTML. Puedes usarlos como accesos rápidos a secciones.</p>
 
             <p>
                 <a href="#generos">
-                    <img src="img/icono-generos.png" alt="Icono de géneros" width="40">
+                    <img src="./SRC/icono-generos.png" alt="Icono de géneros" width="40"> <br>
                     Ir a Géneros
                 </a>
             </p>
 
             <p>
                 <a href="#contacto">
-                    <img src="img/icono-contacto.png" alt="Icono de contacto" width="40">
+                    <img src="./SRC/icono-contacto.png" alt="Icono de contacto" width="40"> <br>
                     Ir a Contacto
                 </a>
             </p>
 
-            <p>
-                Imágenes sugeridas para iconos: busca “icono mando videojuego png”, “icono chat gamer png”.
-                Guarda como <strong>icono-generos.png</strong> y <strong>icono-contacto.png</strong>.
-            </p>
         </section>
 
         <section id="comunidad">
-            <h2>Comunidad</h2>
+            <h2>👤 Comunidad</h2>
             <p>
                 La comunidad gamer se fortalece con respeto y buen juego. Estas reglas son simples y ayudan
                 a mantener un ambiente agradable.
@@ -215,7 +212,7 @@
             </ul>
 
             <aside>
-                <h3>Dato rápido</h3>
+                <h3>📌 Dato rápido</h3>
                 <p>
                     Muchos juegos incluyen opciones de accesibilidad. Explora el menú de configuración antes
                     de jugar para ajustar audio, subtítulos y controles.
@@ -224,7 +221,7 @@
         </section>
 
         <section id="contacto">
-            <h2>Contacto</h2>
+            <h2>📞 Contacto</h2>
             <p>
                 Si quieres recomendar un videojuego o sugerir una sección nueva, envía tus datos en este formulario.
                 (No requiere JavaScript; es solo estructura HTML.)
@@ -288,15 +285,17 @@
                 </fieldset>
             </form>
 
-            <p>
-                También puedes contactarnos en: <a href="mailto:contacto@zonagamer.com">contacto@zonagamer.com</a>
-            </p>
+            <a href="eborbollonp@toluca.tecnm.mx">
+                <button type="button">Enviar correo</button>
+            </a>
         </section>
     </main>
 
     <footer>
         <p>&copy; 2026 Zona Gamer. Página de práctica en HTML sin CSS ni JavaScript.</p>
-        <p><a href="#top">Volver arriba</a></p>
+        <a href="#top">
+            <button type="button">Volver arriba</button>
+        </a>
     </footer>
 </body>
 
